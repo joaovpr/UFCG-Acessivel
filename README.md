@@ -25,10 +25,12 @@ O **UFCG Acessível** é uma extensão que visa solucionar as falhas de acessibi
 
 ## Requisitos de Sistema
 
-- Navegadores compatíveis: Chrome, Firefox, Safari.
-- Sistema operacional: Windows, macOS, Linux.
+- Navegadores compatíveis: No momento a compatibilidade se da com o navegador Google Chrome.
+- Sistema operacional: Windows, Linux.
 
 ## Instalação
+
+Ainda estamos aguardando a avaliação da google para que a extensão possa ser publicada na loja de extensões do chrome, isso pode levar algumas semanas, portanto, no momento só é possível a instalação manual para o uso da extensão.
 
 1. Clone este repositório em sua máquina local.
 ```
