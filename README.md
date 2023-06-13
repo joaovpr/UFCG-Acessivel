@@ -1,6 +1,6 @@
 # UFCG-Acessivel
 
-![Logo UFCG Acessível](images/logo.png)
+![Logo UFCG Acessível](ufcg-acessivel-chrome/icons/icon_name.png)
 
 Este é o repositório oficial do projeto **UFCG Acessível**, desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) do aluno João Vitor Patricio Romão, do curso de Ciência da Computação da Universidade Federal de Campina Grande (UFCG). O projeto foi realizado sob a orientação da professora Joseana Macêdo.
 
@@ -59,12 +59,3 @@ git commit -m "Minhas alterações"
 git push origin minha-branch
 ```
 5. Abra um pull request neste repositório, descrevendo suas alterações.
-
-## Equipe
-
-- João Vitor Patricio Romão (Desenvolvedor)
-- Professora Joseana Macêdo (Orientadora)
-
-## Licença
-
-Este projeto
