@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "UFCG acessível",
+  "description": "Adiciona opções de acessibilidade ao controle acadêmico da Universidade Federal de Campina Grande",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["icons/*"],
+    "matches": ["<all_urls>"]
+  }],
+  "content_scripts": [
+    {
+      "matches": ["https://pre.ufcg.edu.br:8443/ControleAcademicoOnline/*"],
+      "js": [
+        "src/assistive_tools/font_size.js",
+        "src/navigation_modifiers/hide_elements.js",
+        "src/navigation_modifiers/assistive_menu.js",
+        "src/assistive_tools/high_contrast.js",
+        "src/assistive_tools/monochrome.js",
+        "src/navigation_modifiers/tab_indexes.js",
+        "src/navigation_modifiers/lang.js",
+        "src/assistive_tools/header_highlight.js",
+        "src/assistive_tools/typing_field_highlight.js",
+        "src/assistive_tools/select_links.js",
+        "src/assistive_tools/color_bar.js",
+        "src/assistive_tools/top_menu.js",
+        "src/assistive_tools/assistive_options.js"
+      ],
+      "css": [
+        "src/styles/style.css",
+        "src/styles/magnifier.css",
+        "src/styles/top_menu.css",
+        "src/styles/icons.css"
+      ]
+    }
+  ]
+}

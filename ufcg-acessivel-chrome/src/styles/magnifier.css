@@ -1,0 +1,37 @@
+#tabOferta > tbody > tr:hover {
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#disciplinas > table > tbody > tr:hover {
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#disciplinas > table > tbody > tr > td> span.small:hover {
+    font-size: larger;
+}
+
+#conteudo > div.table-responsive > table > tbody > tr:hover {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#conteudo > table > tbody > tr:hover {
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: larger; 
+}
+
+#conteudo > p:nth-child(3) > a {
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.row:hover {
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: larger;
+}
